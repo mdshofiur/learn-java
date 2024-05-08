@@ -1,0 +1,36 @@
+# Ignore Maven build directory
+/target/
+
+# Ignore IDE-specific files for Eclipse (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Ignore IDE-specific files for IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Ignore IDE-specific files for NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# Ignore IDE-specific files for Visual Studio Code
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.log
+
+# Ignore Docker-related files
+.dockerignore
+Dockerfile
